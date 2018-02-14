@@ -8,15 +8,15 @@ testCaseAnswerOne = ("515\n"+"30")
 testCaseAnswerTwo = ("516\n"+"57")
 
 one = str(Init_Stage())
-assert one == testCaseAnswerOne
+
 if one == testCaseAnswerOne:
     print("Test Case One Pass")
 else:
     print("Test Case One Fail")
 
 two = str(Init_Stage())
-assert two == testCaseAnswerTwo
-if one == testCaseAnswerOne:
+
+if two == testCaseAnswerTwo:
     print("Test Case Two Pass")
 else:
     print("Test Case Two Fail")
