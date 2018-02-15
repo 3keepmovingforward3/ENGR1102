@@ -1,7 +1,9 @@
 def primes(num):
-    i = 2
-    my_list=[]
     f = open("test.txt","w")
+    
+    ##Enter User Code Below###
+    
+    i = 2
     while i * i <= num:
         if num % i:
             i += 1
@@ -9,6 +11,9 @@ def primes(num):
             num //= i
             f.write(str(i)+"\n")
             print(i)
-    f.write(str(i)+"\n")
     print(i)
+    
+    
+    ###End User Code
+    f.write(str(i)+"\n")
     f.close
