@@ -1,2 +1,29 @@
-5
-5
+
+    def __init__(self,balance):
+        self.balance = balance
+        
+    def withdraw(self,amount):
+        print("You have selected to withdraw money from the account")
+        self.amount = amount
+        print("You have $"+str(self.balance-self.amount)+".00 left")
+    def deposit(self,amount):
+        self.amount = amount 
+        print("You have selected to deposit money to the account.")
+        print("You have $"+str(self.balance+self.amount)+".00 left")
+
+    def setBalance(self,balance):
+        self.balance = balance
+
+    def cancel(self):
+        self.cancel = self
+        print("Returning to account selection.")
+    def default():
+        return("You have selected an invalid option")
+
+    def finished(self,choice):
+        self.choice = choice
+        if self.choice == "Yes":
+            print("Returning to main menu")
+        else:
+            print("Have a nice day!")
+   

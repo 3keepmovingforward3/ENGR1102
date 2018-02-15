@@ -50,4 +50,4 @@ def default():
     f.close()
     
     #insert PRINT statement here 
-    print("You have selected an invalid option.")  
+    print(string_variable)  

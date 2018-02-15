@@ -1,7 +1,6 @@
 # Complete the function below.
 
 def fizzbuzz(fizzybubbly):
-    finalans = "none"
     if (fizzybubbly % 3 == 0) & (fizzybubbly % 5 == 0):
         return(str(fizzybubbly)+" fizzbuzz")
     else:

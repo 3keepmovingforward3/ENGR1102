@@ -1,0 +1,38 @@
+I'd like to create a "Core Skills Cheat Sheet" - 
+the basic pseudocode, Python of each of the 10 Core Skills... can it be done?
+Example:
+
+FOR LOOPS:
+Pseudo code:
+for i = start to stop by increment
+   [code]
+
+
+Python
+for i in range():
+	array[i]
+
+Example: 
+Here's how to count to 10 using a for loop
+Pseudo, JavaScript, Python, ...
+thoughts?
+
+
+Variables 
+
+Data Types
+
+Console I/O
+
+File I/O
+
+Operators 
+
+
+Conditional Code 
+Flow Control 
+Loops
+Debugging
+Functions 
+Data Structures 
+Objects
