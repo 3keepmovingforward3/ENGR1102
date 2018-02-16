@@ -1,0 +1,5 @@
+Penguin
+6
+False
+None
+100.66
