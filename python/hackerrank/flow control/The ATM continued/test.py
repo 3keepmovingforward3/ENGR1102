@@ -84,8 +84,8 @@ m = j.readline()
 n = g.readline()
 test_case_2 = finish_cmp(m,n)
 if test_case_1 == True & test_case_2 == True:
-    print("\nTest case 2 passed\n")
+    print("\nTest case 3 passed\n")
 else:
-    print("\nTest case 2 failed")
+    print("\nTest case 3 failed")
 g.close()
 j.close()

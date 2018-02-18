@@ -1,0 +1,38 @@
+print some shapes:
+loops:
+***********************************************************
+for loops are used when you know what you are going to count to
+they take the basic form
+
+for x in range(0, 3):
+    print "We're on time %d" % (x)
+***********************************************************
+Other examples:
+
+For..Else
+
+for x in range(3):
+    print x
+else:
+    print 'Final x = %d' % (x)
+*************************************************************
+Strings as an iterable
+
+string = "Hello World"
+for x in string:
+    print x
+**************************************************************
+Lists as an iterable
+
+collection = ['hey', 5, 'd']
+for x in collection:
+    print x
+****************************************************************
+Loop over Lists of lists
+
+list_of_lists = [ [1, 2, 3], [4, 5, 6], [7, 8, 9]]
+for list in list_of_lists:
+    for x in list:
+        print x
+
+**************************************************************

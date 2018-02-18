@@ -1,0 +1,27 @@
+while loops:
+
+While loops are used when you don't know how many iterations a loop needs to iterate through.
+If the condition is initially false, the loop body will not be executed at all. 
+**************************************************************************************************
+while expression:
+   statement(s)
+**************************************************************************************************   
+Python supports to have an else statement associated with a loop statement.
+If the else statement is used with a while loop, the else statement is executed when the condition becomes false.
+**************************************************************************************************
+
+example:
+count = 0
+while count < 5:
+   print count, " is  less than 5"
+   count = count + 1
+else:
+   print count, " is not less than 5"
+
+output:
+0 is less than 5
+1 is less than 5
+2 is less than 5
+3 is less than 5
+4 is less than 5
+5 is not less than 5
