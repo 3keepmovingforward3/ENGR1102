@@ -14,16 +14,15 @@ import os
 
 import fahmf_functions
 
-x = fahmf_functions
-args, s = x.my_parser()
 base_hash = hashlib.sha384()
 p = os.getcwd()
-
+x = fahmf_functions
+args, s = x.my_parser()
 file = x.my_glob(p, args, s)
+
 for line in fileinput.input(file):
-        folder_path_to_save_in = x.pathname_finder(file)
+        folder_path_to_save_in, filename = x.pathname_finder(file)
         file_hashed = x.hash_make(line, base_hash)
         x.hash_write_to_file(file_hashed, folder_path_to_save_in, args.filename)
-
         fileinput.nextfile()
         fileinput.close()

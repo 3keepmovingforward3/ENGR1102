@@ -4,9 +4,12 @@ import fileinput
 import glob
 import hashlib
 import os
-import pathlib
 import shutil
 import tempfile
+
+import pathlib2
+
+mismatches = 0
 
 
 def my_parser():
@@ -32,9 +35,9 @@ def hash_make(line, base_hash):
 
 
 def hash_write_to_file(file_hashed, folder_path_to_save_in, file_name):  # right now just printing
-    print(folder_path_to_save_in)
-    print(file_name+'.hash')
-    print(file_hashed)
+    with open('{}.hash'.format(file_name), 'w') as f:
+        f.write(file_hashed)
+        f.close()
 
 
 def pathname_finder(file):
@@ -45,25 +48,27 @@ def pathname_finder(file):
 
 def my_glob(p, args, s):
     for file in glob.iglob('{}/{}/{}'.format(p, s, args.filename), recursive=args.flag_recursive):
-        if file.is_dir():
+        if os.path.isdir(file):
             fileinput.nextfile()
-        elif pathlib.PurePosixPath(args.filename).suffix == '.hash':
-            internal_hash_check(file)
+        else:
+            with os.scandir(os.path.dirname(os.path.realpath(file))) as it:  # pathlib2.PurePosixPath(args.filename).suffix == '.hash':
+                for entry in it:
+                    if pathlib2.PurePosixPath(entry).suffix == '.hash':
+                        
 
 
 def internal_hash_check(file):
+    global mismatches
+    fp, path = tempfile.mkstemp(suffix='temp', text=True)  # make the temp file 'fp' at path
     with open(file, 'r') as f:
-        for line in f:
-            fp = tempfile.TemporaryFile()
-            for temp_line in fileinput.input(fp):
-                fp.write(hash_make(temp_line, hashlib.sha384()))
+        for line in fileinput.input(f):
+                os.write(fp, hash_make(line, hashlib.sha384()))
+                os.close(fp)
                 if filecmp.cmp(file, fp):
-                    continue
-                else:
-                    raise NameError('hashes do not match')
-                    log = open('log.txt', 'w')
-                    shutil.copy2(fp, log)
-                    log.close()
                     fp.close()
-
+                else:
+                    print('hashes do not match')
+                    shutil.copy(fp, 'log.txt')
+                    fp.close()
+                    mismatches += 1
 
