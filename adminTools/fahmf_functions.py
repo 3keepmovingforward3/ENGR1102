@@ -1,5 +1,12 @@
 import argparse
+import filecmp
+import fileinput
+import glob
+import hashlib
 import os
+import pathlib
+import shutil
+import tempfile
 
 
 def my_parser():
@@ -26,7 +33,7 @@ def hash_make(line, base_hash):
 
 def hash_write_to_file(file_hashed, folder_path_to_save_in, file_name):  # right now just printing
     print(folder_path_to_save_in)
-    print(file_name)
+    print(file_name+'.hash')
     print(file_hashed)
 
 
@@ -34,3 +41,29 @@ def pathname_finder(file):
     folder_path_to_save_in = os.path.dirname(os.path.realpath(file))
     file_name = os.path.basename(file)
     return folder_path_to_save_in, file_name
+
+
+def my_glob(p, args, s):
+    for file in glob.iglob('{}/{}/{}'.format(p, s, args.filename), recursive=args.flag_recursive):
+        if file.is_dir():
+            fileinput.nextfile()
+        elif pathlib.PurePosixPath(args.filename).suffix == '.hash':
+            internal_hash_check(file)
+
+
+def internal_hash_check(file):
+    with open(file, 'r') as f:
+        for line in f:
+            fp = tempfile.TemporaryFile()
+            for temp_line in fileinput.input(fp):
+                fp.write(hash_make(temp_line, hashlib.sha384()))
+                if filecmp.cmp(file, fp):
+                    continue
+                else:
+                    raise NameError('hashes do not match')
+                    log = open('log.txt', 'w')
+                    shutil.copy2(fp, log)
+                    log.close()
+                    fp.close()
+
+

@@ -9,7 +9,6 @@
 # text file in the same folder
 
 import fileinput
-import glob
 import hashlib
 import os
 
@@ -20,8 +19,8 @@ args, s = x.my_parser()
 base_hash = hashlib.sha384()
 p = os.getcwd()
 
-for file in glob.glob('{}/{}/{}'.format(p, s, args.filename), recursive=args.flag_recursive):
-    for line in fileinput.input(file):
+file = x.my_glob(p, args, s)
+for line in fileinput.input(file):
         folder_path_to_save_in = x.pathname_finder(file)
         file_hashed = x.hash_make(line, base_hash)
         x.hash_write_to_file(file_hashed, folder_path_to_save_in, args.filename)
