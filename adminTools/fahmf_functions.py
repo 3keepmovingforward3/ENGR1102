@@ -5,7 +5,6 @@ import glob
 import hashlib
 import os
 import shutil
-import tempfile
 
 import pathlib2
 
@@ -35,7 +34,7 @@ def hash_make(line, base_hash):
 
 
 def hash_write_to_file(file_hashed, folder_path_to_save_in, file_name):  # right now just printing
-    with open('{}.hash'.format(file_name), 'w') as f:
+    with open('{}/{}.hash'.format(folder_path_to_save_in, file_name), 'w') as f:
         f.write(file_hashed)
         f.close()
 
@@ -46,29 +45,35 @@ def pathname_finder(file):
     return folder_path_to_save_in, file_name
 
 
-def my_glob(p, args, s):
+def my_glob(p, args, s, base_hash):
     for file in glob.iglob('{}/{}/{}'.format(p, s, args.filename), recursive=args.flag_recursive):
         if os.path.isdir(file):
             fileinput.nextfile()
         else:
-            with os.scandir(os.path.dirname(os.path.realpath(file))) as it:  # pathlib2.PurePosixPath(args.filename).suffix == '.hash':
+            with os.scandir(os.path.dirname(os.path.realpath(file))) as it:
                 for entry in it:
-                    if pathlib2.PurePosixPath(entry).suffix == '.hash':
-                        
+                    if pathlib2.PurePath(entry).suffix == '.hash':
+                        internal_hash_check(entry, args)
+        for line in fileinput.input(file):
+            folder_path_to_save_in, filename = pathname_finder(file)
+            file_hashed = hash_make(line, base_hash)
+            hash_write_to_file(file_hashed, folder_path_to_save_in, args.filename)
+            fileinput.nextfile()
 
 
-def internal_hash_check(file):
+def internal_hash_check(file, args):
     global mismatches
-    fp, path = tempfile.mkstemp(suffix='temp', text=True)  # make the temp file 'fp' at path
-    with open(file, 'r') as f:
-        for line in fileinput.input(f):
-                os.write(fp, hash_make(line, hashlib.sha384()))
-                os.close(fp)
-                if filecmp.cmp(file, fp):
-                    fp.close()
-                else:
-                    print('hashes do not match')
-                    shutil.copy(fp, 'log.txt')
-                    fp.close()
-                    mismatches += 1
-
+    fp = open('{}/temp.txt'.format(os.path.dirname(os.path.realpath(file))), 'w+')  # make the temp file 'fp' at path
+    f = open('{}/{}'.format(os.path.dirname(os.path.realpath(file)), args.filename), 'r')
+    fhash = open('{}/{}.hash'.format(os.path.dirname(os.path.realpath(file)), args.filename), 'r')
+    fp.write(hash_make(f.read(), hashlib.sha384()))
+    fp.close()
+    fhash.close()
+    if filecmp.cmp(fhash, fp):
+        fp.close()
+    else:
+        print('hashes do not match')
+        shutil.copy(fp, 'log.txt')
+        fp.close()
+        mismatches += 1
+    return
