@@ -1,9 +1,9 @@
 class Rectangle:
     def __init__(self,length,width):
-        self.length=length
-        self.width=width
+        self._______
+        self._______
     
     def getArea(self):
-        return(self.length*self.width)
+        return(_________)
     def getPerimeter(self):
-        return(2*(self.length+self.width))
+        return(___________)
