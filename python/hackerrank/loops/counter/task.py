@@ -1,11 +1,13 @@
 def counter(endCount):
     f = open("test.txt","w")
-    ###User Code Below###
+    # ***User Code Below*** #
     
-    i=0
-    for i in range(endCount+1):
-        f.write(str(i)+"\n")
-        print(i)
+    for __ in range(______):
+        # Non User Code
+        f.write(str(____)+"\n")
+
+        # User Code
+        print(_____)
     
-    ###End User Code###
+    # ***End User Code*** #
     f.close
