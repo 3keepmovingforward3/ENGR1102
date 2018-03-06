@@ -2,8 +2,8 @@ def primes(num):
     f = open("test.txt","w")
     
     ##Enter User Code Below###
-    
-    i = 2
+
+    i = ____
     while i * i <= num:
         if num % i:
             i += 1
