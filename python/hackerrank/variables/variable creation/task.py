@@ -1,24 +1,21 @@
-import sys
 def variables():
     f = open('test.txt', 'w')
     
-    #Start your code below (tip: Make sure to indent your code)
-    penguin = "Penguin"
-    six = "6"
-    false = "False"
-    none = "None"
-    a = "100.66"
-    f.write(penguin+"\n")
-    f.write(six+"\n")
-    f.write(false+"\n")
-    f.write(none+"\n")
-    f.write(a+"\n")
-    
-    print(penguin)
-    print(6)
-    print(false)
-    print(none)
-    print(a)
+    # Start your code below (tip: Make sure to indent your code)
+    # Setup variables here
+
+    # put variables in order respective of task commands
+    f.write(______+"\n")
+    f.write(______+"\n")
+    f.write(______+"\n")
+    f.write(______+"\n")
+    f.write(______+"\n")
+
+    # put variables in order respective of task commands
+    print(______)
+    print(______)
+    print(______)
+    print(______)
+    print(______)
     
     f.close()
-
