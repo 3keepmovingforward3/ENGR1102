@@ -2,52 +2,55 @@
 
 
 def withdraw():
-    ###Assign the variable, aka the withraw print statement
-    ###START
-    string_variable = "You have selected to withdraw money from the account."
+    # Assign the variable, aka the withraw print statement
+    # START
+    string_variable = __________
     
-    ###Test Code Do Not Modify
+    # Test Code Do Not Modify
     f = open("test.txt","w")
     f.write(string_variable)
     f.close()
     
-    #insert PRINT statement here 
-    print("You have selected to withdraw money from the account.")
+    # insert PRINT statement here
+    print(_____________)
 
 def deposit():
-    ###Assign the variable, aka the withraw print statement
-    ###START
-    string_variable = "You have selected to deposit money to the account."
+    # Assign the variable, aka the withraw print statement
+    # START
+    string_variable = _____________________
     
-    ###Test Code Do Not Modify
+    # Test Code Do Not Modify
     f = open("test.txt","w")
     f.write(string_variable)
     f.close()
     
-    #insert PRINT statement here 
-    print("You have selected to deposit money to the account.")
-    
+    # insert PRINT statement here
+    print(______________________)
+
+
 def cancel():
-    ###Assign the variable, aka the withraw print statement
-    ###START
-    string_variable = "Returning to account selection."
+    # Assign the variable, aka the withraw print statement
+    # START
+    string_variable = ____________________
     
-    ###Test Code Do Not Modify
+    # Test Code Do Not Modify
     f = open("test.txt","w")
     f.write(string_variable)
     f.close()
     
-    #insert PRINT statement here 
-    print("Returning to account selection.")
+    # insert PRINT statement here
+    print(______________________________)
+
+
 def default():
-    ###Assign the variable, aka the withraw print statement
-    ###START
-    string_variable = "You have selected an invalid option."
+    # Assign the variable, aka the withraw print statement
+    # START
+    string_variable = _______________________
     
-    ###Test Code Do Not Modify
+    # Test Code Do Not Modify
     f = open("test.txt","w")
     f.write(string_variable)
     f.close()
     
-    #insert PRINT statement here 
-    print(string_variable)  
+    # insert PRINT statement here
+    print(_____________)
