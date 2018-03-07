@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d604445d-3b1e-499e-9ab8-5e3790a7d104" name="Default" comment="testing branch">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="d604445d-3b1e-499e-9ab8-5e3790a7d104" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/adminTools/fahmf_v0.2.py" afterPath="$PROJECT_DIR$/adminTools/fahmf_v0.2.py" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/task.py" afterPath="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/task.py" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/test.py" afterPath="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/test.py" />
+      <change beforePath="$PROJECT_DIR$/python/hackerrank/conditional code/which one is greater/task.py" afterPath="$PROJECT_DIR$/python/hackerrank/conditional code/which one is greater/task.py" />
+      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/counter.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py" afterPath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py" />
+      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test.py_checksum.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test1.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test2.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/testone.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/testtwo.txt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,26 +23,16 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ENGR1102$fahmf_v0_2.coverage" NAME="fahmf_v0.2 Coverage Results" MODIFIED="1520350608273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/adminTools" />
-    <SUITE FILE_PATH="coverage/ENGR1102$test.coverage" NAME="test Coverage Results" MODIFIED="1520350611546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation" />
+    <SUITE FILE_PATH="coverage/ENGR1102$test.coverage" NAME="test Coverage Results" MODIFIED="1520430496064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage" />
     <SUITE FILE_PATH="coverage/ENGR1102$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1520350467846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file leaf-file-name="task.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/task.py">
+        <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,6 +76,25 @@
         <option value="$PROJECT_DIR$/python/hackerrank/variables/Gradebook/task.py" />
         <option value="$PROJECT_DIR$/adminTools/fahmf_v0.2.py" />
         <option value="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/variables/variable creation/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/objects/creating your first object/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/objects/iterating over objects/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/loops/counter/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/loops/nested Loops/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/functions/a little more/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/flow control/buzz and fizz/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/flow control/The ATM/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/debugging/any comments/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/debugging/dig deeper/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/debugging/find that bug/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/data types/helloworld/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/data types/intergers/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/data types/stringsandintergers/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/console input and output/in and out/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/conditional code/which one is greater/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test.py" />
       </list>
     </option>
   </component>
@@ -120,7 +134,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,26 +162,27 @@
               <item name="ENGR1102" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-              <item name="variables" type="462c0819:PsiDirectoryNode" />
+              <item name="console input and output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ENGR1102" type="b2602c69:ProjectViewProjectNode" />
               <item name="ENGR1102" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
-              <item name="variables" type="462c0819:PsiDirectoryNode" />
-              <item name="variable manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="console input and output" type="462c0819:PsiDirectoryNode" />
+              <item name="Initial Stage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/test.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -224,13 +238,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="ENGR1102" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -347,7 +361,133 @@
       <option name="project" value="LOCAL" />
       <updated>1520339712372</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="variable manipulation task fix">
+      <created>1520379845368</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1520379845370</updated>
+    </task>
+    <task id="LOCAL-00014" summary="variable creation task fix">
+      <created>1520380075947</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1520380075947</updated>
+    </task>
+    <task id="LOCAL-00015" summary="creating your first object task fix">
+      <created>1520380213959</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1520380213959</updated>
+    </task>
+    <task id="LOCAL-00016" summary="iterating over objects task fix">
+      <created>1520380262322</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1520380262322</updated>
+    </task>
+    <task id="LOCAL-00017" summary="counter task fix">
+      <created>1520380426342</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1520380426345</updated>
+    </task>
+    <task id="LOCAL-00018" summary="nested loops task fix">
+      <created>1520380484847</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1520380484847</updated>
+    </task>
+    <task id="LOCAL-00019" summary="a little more task fix">
+      <created>1520380562236</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1520380562236</updated>
+    </task>
+    <task id="LOCAL-00020" summary="fizzbuzz task fix">
+      <created>1520380653602</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1520380653602</updated>
+    </task>
+    <task id="LOCAL-00021" summary="atm task fix">
+      <created>1520380829789</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1520380829789</updated>
+    </task>
+    <task id="LOCAL-00022" summary="any comments fix">
+      <created>1520380895553</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1520380895553</updated>
+    </task>
+    <task id="LOCAL-00023" summary="vcs fix">
+      <created>1520381154497</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1520381154497</updated>
+    </task>
+    <task id="LOCAL-00024" summary="find that bug task fix">
+      <created>1520381196654</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1520381196654</updated>
+    </task>
+    <task id="LOCAL-00025" summary="find that bug task fix">
+      <created>1520381224639</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1520381224639</updated>
+    </task>
+    <task id="LOCAL-00026" summary="intergers task fix">
+      <created>1520381529042</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1520381529042</updated>
+    </task>
+    <task id="LOCAL-00027" summary="strings and int task fix">
+      <created>1520381572311</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1520381572311</updated>
+    </task>
+    <task id="LOCAL-00028" summary="in and out task fix">
+      <created>1520381610706</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1520381610706</updated>
+    </task>
+    <task id="LOCAL-00029" summary="middle ground task fix">
+      <created>1520381693070</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1520381693070</updated>
+    </task>
+    <task id="LOCAL-00030" summary="which one is greater task fix">
+      <created>1520381777956</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1520381777956</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -357,7 +497,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3534202" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.8631039" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32736155" sideWeight="0.8631039" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2942899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -420,7 +560,24 @@
     <MESSAGE value="removed answer for gradebook task" />
     <MESSAGE value="testing branch" />
     <MESSAGE value="removed answer from variable create" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed answer from variable create" />
+    <MESSAGE value="variable manipulation task fix" />
+    <MESSAGE value="variable creation task fix" />
+    <MESSAGE value="creating your first object task fix" />
+    <MESSAGE value="iterating over objects task fix" />
+    <MESSAGE value="counter task fix" />
+    <MESSAGE value="nested loops task fix" />
+    <MESSAGE value="a little more task fix" />
+    <MESSAGE value="fizzbuzz task fix" />
+    <MESSAGE value="atm task fix" />
+    <MESSAGE value="any comments fix" />
+    <MESSAGE value="vcs fix" />
+    <MESSAGE value="find that bug task fix" />
+    <MESSAGE value="intergers task fix" />
+    <MESSAGE value="strings and int task fix" />
+    <MESSAGE value="in and out task fix" />
+    <MESSAGE value="middle ground task fix" />
+    <MESSAGE value="which one is greater task fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="which one is greater task fix" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -449,172 +606,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_v0.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_v0.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1422">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_v0.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1098">
-          <caret line="61" column="0" lean-forward="true" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_v0.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/genericpath.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/lib/python3.6/site-packages/pathlib2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17856">
-          <caret line="992" column="0" lean-forward="false" selection-start-line="992" selection-start-column="0" selection-end-line="992" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_v0.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="65" column="30" lean-forward="false" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_v0.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="65" column="30" lean-forward="true" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_v0.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_v0.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/fahmf_functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and outpu/Initial Stage/test.py" />
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and outpu/Initial Stage/task.py" />
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and outpu/Initial Stage/task.py" />
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and outpu/Initial Stage/test.py" />
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/debugging/any comments/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/debugging/any comments/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/adminTools/find_and_hash_multiple_files_v0.1.py" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
     <entry file="file://$PROJECT_DIR$/adminTools/tstarea/nonee.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -751,6 +742,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2325">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/variables/variable creation/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="56" lean-forward="false" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python/hackerrank/variables/Gradebook/task.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -758,18 +770,173 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/test.py">
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/objects/arrays/task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/loops/counter/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/task.py">
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/objects/iterating over objects/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/objects/creating your first object/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/variables/variable manipulation/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/loops/nested Loops/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/loops/Nth Factorial/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/functions/a little more/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/functions/getting started with functions/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/flow control/The ATM/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/flow control/buzz and fizz/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/debugging/dig deeper/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/debugging/any comments/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/data types/helloworld/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/data types/stringsandintergers/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/conditional code/pressure regulator with a twist/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/in and out/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/data types/intergers/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/debugging/find that bug/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/conditional code/which one is greater/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/conditional code/which books do i need for class/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

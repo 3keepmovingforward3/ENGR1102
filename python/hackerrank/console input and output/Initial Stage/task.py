@@ -1,8 +1,9 @@
-import keyboard, os,sys
 def Init_Stage():
-    #a = input()
-    a=keyboard.write("5",delay=1,restore_state_after=True)
-    print(a)
+    a = input('Input1: ')
+    b = input('Input2: ')
+    c = input('Input3: ')
+    return '{}{}\n{}'.format(a, b, c)
 
-    return()
-Init_Stage()
+
+a = Init_Stage()
+print(a)
