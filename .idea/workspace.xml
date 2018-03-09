@@ -15,7 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ENGR1102$fahmf_v0_2.coverage" NAME="fahmf_v0.2 Coverage Results" MODIFIED="1520350608273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/adminTools" />
-    <SUITE FILE_PATH="coverage/ENGR1102$test.coverage" NAME="test Coverage Results" MODIFIED="1520430496064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage" />
+    <SUITE FILE_PATH="coverage/ENGR1102$test.coverage" NAME="test Coverage Results" MODIFIED="1520616853398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage" />
     <SUITE FILE_PATH="coverage/ENGR1102$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1520350467846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation" />
   </component>
   <component name="FileEditorManager">
@@ -532,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520615899890</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="readme.md cleanup">
+      <created>1520616590675</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1520616590675</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -598,7 +605,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="testing branch" />
     <MESSAGE value="removed answer from variable create" />
     <MESSAGE value="variable manipulation task fix" />
     <MESSAGE value="variable creation task fix" />
@@ -623,7 +629,8 @@
     <MESSAGE value="middle ground pep8 fix" />
     <MESSAGE value="middle ground test.py function rename" />
     <MESSAGE value="middle ground test.py pep8 and typo fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="middle ground test.py pep8 and typo fix" />
+    <MESSAGE value="readme.md cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme.md cleanup" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
