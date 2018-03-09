@@ -1,4 +1,4 @@
-from task import M_G
+from task import m_g
 
 
 testCaseInputOne = ("5 "+"16 "+"57")
@@ -9,7 +9,7 @@ testCaseAnswerOne = (78)
 testCaseAnswerTwo = (72)
 testCaseAnswerThree = (72)
 print("Input Expected:", testCaseInputOne)
-one = M_G()
+one = m_g()
 print("User output", one)
 print("Expected ouput",testCaseAnswerOne)
 if one == testCaseAnswerOne:
@@ -18,7 +18,7 @@ else:
     print("Test Case One Fail")
 
 print("Input Expected:", testCaseInputTwo)
-two = M_G()
+two = m_g()
 print("User output", two)
 print("Expected ouput",testCaseAnswerTwo)
 
@@ -28,7 +28,7 @@ else:
     print("Test Case Two Fail")
 
 print("Input Expected:", testCaseInputTwo)
-three = M_G()
+three = m_g()
 print("User output", three)
 print("Expected ouput",testCaseAnswerThree)
 
