@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d604445d-3b1e-499e-9ab8-5e3790a7d104" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ENGR1102.iml" afterPath="$PROJECT_DIR$/.idea/ENGR1102.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="d604445d-3b1e-499e-9ab8-5e3790a7d104" name="Default" comment="middle ground pep8 fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py" afterPath="$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py" />
     </list>
@@ -25,8 +23,8 @@
       <file leaf-file-name="task.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+            <state relative-caret-position="126">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -490,7 +488,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520615108542</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="middle ground task answer removed + added task info as comments">
+      <created>1520615644967</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1520615644967</updated>
+    </task>
+    <task id="LOCAL-00034" summary="middle ground pep8 fix">
+      <created>1520615699090</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1520615699090</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -556,8 +568,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="added new folder with some test files" />
-    <MESSAGE value="WIP" />
     <MESSAGE value="works for write, not for hash check, committing to save in case my cat walks on my keyboard" />
     <MESSAGE value="removed answer for gradebook task" />
     <MESSAGE value="testing branch" />
@@ -581,7 +591,9 @@
     <MESSAGE value="which one is greater task fix" />
     <MESSAGE value="console i/o init_stage: changed expectations of correct output confirmation to user" />
     <MESSAGE value="initial stage task answer removed + added task info as comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial stage task answer removed + added task info as comments" />
+    <MESSAGE value="middle ground task answer removed + added task info as comments" />
+    <MESSAGE value="middle ground pep8 fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="middle ground pep8 fix" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -932,8 +944,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="126">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
