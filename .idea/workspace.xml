@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d604445d-3b1e-499e-9ab8-5e3790a7d104" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ENGR1102.iml" afterPath="$PROJECT_DIR$/.idea/ENGR1102.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/conditional code/which one is greater/task.py" afterPath="$PROJECT_DIR$/python/hackerrank/conditional code/which one is greater/task.py" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/counter.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py" afterPath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test.py_checksum.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test1.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test2.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/testone.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/testtwo.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py" afterPath="$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,12 +21,12 @@
     <SUITE FILE_PATH="coverage/ENGR1102$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1520350467846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/hackerrank/variables/variable manipulation" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="task.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py">
+        <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="18">
+              <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -91,10 +85,10 @@
         <option value="$PROJECT_DIR$/python/hackerrank/data types/intergers/task.py" />
         <option value="$PROJECT_DIR$/python/hackerrank/data types/stringsandintergers/task.py" />
         <option value="$PROJECT_DIR$/python/hackerrank/console input and output/in and out/task.py" />
-        <option value="$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py" />
         <option value="$PROJECT_DIR$/python/hackerrank/conditional code/which one is greater/task.py" />
-        <option value="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py" />
         <option value="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py" />
+        <option value="$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py" />
       </list>
     </option>
   </component>
@@ -134,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,11 +139,6 @@
             <path>
               <item name="ENGR1102" type="b2602c69:ProjectViewProjectNode" />
               <item name="ENGR1102" type="462c0819:PsiDirectoryNode" />
-              <item name="adminTools" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ENGR1102" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ENGR1102" type="462c0819:PsiDirectoryNode" />
               <item name="python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -170,20 +160,19 @@
               <item name="python" type="462c0819:PsiDirectoryNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="console input and output" type="462c0819:PsiDirectoryNode" />
-              <item name="Initial Stage" type="462c0819:PsiDirectoryNode" />
+              <item name="middle ground" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="/usr/bin/git" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
@@ -487,19 +476,34 @@
       <option name="project" value="LOCAL" />
       <updated>1520381777956</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="console i/o init_stage: changed expectations of correct output confirmation to user">
+      <created>1520430612670</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1520430612670</updated>
+    </task>
+    <task id="LOCAL-00032" summary="initial stage task answer removed + added task info as comments">
+      <created>1520615108541</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1520615108542</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-88" y="85" width="1368" height="721" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3534202" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.5058565" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32899022" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32736155" sideWeight="0.8631039" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.8631039" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2942899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2942899" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -552,8 +556,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Changing filename so as not to include 'hash'" />
-    <MESSAGE value="moved functions to different file&#10;works as same as v0.1&#10;added new folder with some test files" />
     <MESSAGE value="added new folder with some test files" />
     <MESSAGE value="WIP" />
     <MESSAGE value="works for write, not for hash check, committing to save in case my cat walks on my keyboard" />
@@ -577,7 +579,9 @@
     <MESSAGE value="in and out task fix" />
     <MESSAGE value="middle ground task fix" />
     <MESSAGE value="which one is greater task fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="which one is greater task fix" />
+    <MESSAGE value="console i/o init_stage: changed expectations of correct output confirmation to user" />
+    <MESSAGE value="initial stage task answer removed + added task info as comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial stage task answer removed + added task info as comments" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -781,7 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/in and out/task.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -925,18 +921,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test.py">
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/test.py" />
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/Initial Stage/task.py">
+    <entry file="file://$PROJECT_DIR$/python/hackerrank/console input and output/middle ground/task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="18">
+          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
           <folding />
         </state>
       </provider>
