@@ -5,3 +5,8 @@
 ### Repository Owned By Benjamin A. Blouin
 #### [benjamin.blouin@temple.edu](benjamin.blouin@temple.edu "Benjamin Blouin")
 
+Hello.
+I'm written by a person. Maybe.
+
+# Waiting for environment...
+
