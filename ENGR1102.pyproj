@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{459f028a-6fc8-4f6d-8e62-b73973baf585}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>adminTools\fahmf_functions.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.6</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="adminTools\fahmf_functions.py" />
+    <Compile Include="adminTools\fahmf_v0.2.py" />
+    <Compile Include="adminTools\setup.py" />
+    <Compile Include="python\code sprint\code sprint 4.py" />
+    <Compile Include="python\coreskillsdemo\coreskillsans\popularity_contest.py" />
+    <Compile Include="python\hackerrank\conditional code\pressure regulator with a twist\task.py" />
+    <Compile Include="python\hackerrank\conditional code\pressure regulator with a twist\test.py" />
+    <Compile Include="python\hackerrank\conditional code\which books do i need for class\task.py" />
+    <Compile Include="python\hackerrank\conditional code\which books do i need for class\test.py" />
+    <Compile Include="python\hackerrank\conditional code\which one is greater\task.py" />
+    <Compile Include="python\hackerrank\conditional code\which one is greater\test.py" />
+    <Compile Include="python\hackerrank\console input and output\in and out\task.py" />
+    <Compile Include="python\hackerrank\console input and output\in and out\test.py" />
+    <Compile Include="python\hackerrank\console input and output\Initial Stage\task.py" />
+    <Compile Include="python\hackerrank\console input and output\middle ground\task.py" />
+    <Compile Include="python\hackerrank\console input and output\middle ground\test.py" />
+    <Compile Include="python\hackerrank\data types\helloworld\task.py" />
+    <Compile Include="python\hackerrank\data types\helloworld\test.py" />
+    <Compile Include="python\hackerrank\data types\intergers\task.py" />
+    <Compile Include="python\hackerrank\data types\intergers\test.py" />
+    <Compile Include="python\hackerrank\data types\stringsandintergers\task.py" />
+    <Compile Include="python\hackerrank\data types\stringsandintergers\test.py" />
+    <Compile Include="python\hackerrank\debugging\any comments\task.py" />
+    <Compile Include="python\hackerrank\debugging\any comments\test.py" />
+    <Compile Include="python\hackerrank\debugging\dig deeper\task.py" />
+    <Compile Include="python\hackerrank\debugging\dig deeper\test.py" />
+    <Compile Include="python\hackerrank\debugging\find that bug\task.py" />
+    <Compile Include="python\hackerrank\debugging\find that bug\test.py" />
+    <Compile Include="python\hackerrank\flow control\buzz and fizz\task.py" />
+    <Compile Include="python\hackerrank\flow control\buzz and fizz\test.py" />
+    <Compile Include="python\hackerrank\flow control\The ATM continued\task.py" />
+    <Compile Include="python\hackerrank\flow control\The ATM continued\test.py" />
+    <Compile Include="python\hackerrank\flow control\The ATM\task.py" />
+    <Compile Include="python\hackerrank\flow control\The ATM\test.py" />
+    <Compile Include="python\hackerrank\functions\a little more\task.py" />
+    <Compile Include="python\hackerrank\functions\a little more\test.py" />
+    <Compile Include="python\hackerrank\functions\getting started with functions\task.py" />
+    <Compile Include="python\hackerrank\functions\getting started with functions\test.py" />
+    <Compile Include="python\hackerrank\functions\manipulating indices\task.py" />
+    <Compile Include="python\hackerrank\functions\manipulating indices\test.py" />
+    <Compile Include="python\hackerrank\loops\counter\task.py" />
+    <Compile Include="python\hackerrank\loops\counter\test.py" />
+    <Compile Include="python\hackerrank\loops\nested Loops\task.py" />
+    <Compile Include="python\hackerrank\loops\nested Loops\test.py" />
+    <Compile Include="python\hackerrank\loops\Nth Factorial\task.py" />
+    <Compile Include="python\hackerrank\loops\Nth Factorial\test.py" />
+    <Compile Include="python\hackerrank\objects\arrays\task.py" />
+    <Compile Include="python\hackerrank\objects\arrays\test.py" />
+    <Compile Include="python\hackerrank\objects\creating your first object\task.py" />
+    <Compile Include="python\hackerrank\objects\creating your first object\test.py" />
+    <Compile Include="python\hackerrank\objects\iterating over objects\task.py" />
+    <Compile Include="python\hackerrank\objects\iterating over objects\test.py" />
+    <Compile Include="python\hackerrank\variables\Gradebook\task.py" />
+    <Compile Include="python\hackerrank\variables\Gradebook\test.py" />
+    <Compile Include="python\hackerrank\variables\variable creation\task.py" />
+    <Compile Include="python\hackerrank\variables\variable creation\test.py" />
+    <Compile Include="python\hackerrank\variables\variable manipulation\task.py" />
+    <Compile Include="python\hackerrank\variables\variable manipulation\test.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="python\boilerplates\New Text Document.txt" />
+    <Content Include="python\code sprint\core skills shapes.txt" />
+    <Content Include="python\hackerrank\conditional code\pressure regulator with a twist\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\conditional code\which books do i need for class\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\conditional code\which one is greater\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\console input and output\in and out\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\console input and output\middle ground\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\data types\helloworld\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\data types\intergers\out.txt" />
+    <Content Include="python\hackerrank\data types\intergers\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\data types\stringsandintergers\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\debugging\any comments\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\debugging\dig deeper\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\debugging\find that bug\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\flow control\buzz and fizz\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\flow control\The ATM continued\balance.txt" />
+    <Content Include="python\hackerrank\flow control\The ATM continued\deposit.txt" />
+    <Content Include="python\hackerrank\flow control\The ATM continued\deposit_ans.txt" />
+    <Content Include="python\hackerrank\flow control\The ATM continued\finished.txt" />
+    <Content Include="python\hackerrank\flow control\The ATM continued\invalid_ans.txt" />
+    <Content Include="python\hackerrank\flow control\The ATM continued\main_menu_ans.txt" />
+    <Content Include="python\hackerrank\flow control\The ATM continued\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\flow control\The ATM continued\withdraw.txt" />
+    <Content Include="python\hackerrank\flow control\The ATM continued\withdraw_ans.txt" />
+    <Content Include="python\hackerrank\flow control\The ATM\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\functions\a little more\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\functions\getting started with functions\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\functions\manipulating indices\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\loops\counter\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\loops\counter\test.txt" />
+    <Content Include="python\hackerrank\loops\counter\test.txt_checksum.txt" />
+    <Content Include="python\hackerrank\loops\nested Loops\ans.txt" />
+    <Content Include="python\hackerrank\loops\nested Loops\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\loops\nested Loops\test.txt" />
+    <Content Include="python\hackerrank\loops\Nth Factorial\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\objects\arrays\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\objects\creating your first object\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\objects\iterating over objects\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\variables\Gradebook\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\variables\variable creation\ans.txt" />
+    <Content Include="python\hackerrank\variables\variable creation\test.py_checksum.txt" />
+    <Content Include="python\hackerrank\variables\variable manipulation\test.py_checksum.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="adminTools" />
+    <Folder Include="adminTools\tstarea" />
+    <Folder Include="python\" />
+    <Folder Include="python\boilerplates" />
+    <Folder Include="python\code sprint" />
+    <Folder Include="python\coreskillsdemo\" />
+    <Folder Include="python\coreskillsdemo\coreskillsans" />
+    <Folder Include="python\hackerrank\" />
+    <Folder Include="python\hackerrank\conditional code\" />
+    <Folder Include="python\hackerrank\conditional code\pressure regulator with a twist" />
+    <Folder Include="python\hackerrank\conditional code\which books do i need for class" />
+    <Folder Include="python\hackerrank\conditional code\which one is greater" />
+    <Folder Include="python\hackerrank\console input and output\" />
+    <Folder Include="python\hackerrank\console input and output\in and out" />
+    <Folder Include="python\hackerrank\console input and output\Initial Stage" />
+    <Folder Include="python\hackerrank\console input and output\middle ground" />
+    <Folder Include="python\hackerrank\data types\" />
+    <Folder Include="python\hackerrank\data types\helloworld" />
+    <Folder Include="python\hackerrank\data types\intergers" />
+    <Folder Include="python\hackerrank\data types\stringsandintergers" />
+    <Folder Include="python\hackerrank\debugging\" />
+    <Folder Include="python\hackerrank\debugging\any comments" />
+    <Folder Include="python\hackerrank\debugging\dig deeper" />
+    <Folder Include="python\hackerrank\debugging\find that bug" />
+    <Folder Include="python\hackerrank\flow control\" />
+    <Folder Include="python\hackerrank\flow control\buzz and fizz" />
+    <Folder Include="python\hackerrank\flow control\The ATM" />
+    <Folder Include="python\hackerrank\flow control\The ATM continued" />
+    <Folder Include="python\hackerrank\functions\" />
+    <Folder Include="python\hackerrank\functions\a little more" />
+    <Folder Include="python\hackerrank\functions\getting started with functions" />
+    <Folder Include="python\hackerrank\functions\manipulating indices" />
+    <Folder Include="python\hackerrank\loops\" />
+    <Folder Include="python\hackerrank\loops\counter" />
+    <Folder Include="python\hackerrank\loops\nested Loops" />
+    <Folder Include="python\hackerrank\loops\Nth Factorial" />
+    <Folder Include="python\hackerrank\objects\" />
+    <Folder Include="python\hackerrank\objects\arrays" />
+    <Folder Include="python\hackerrank\objects\creating your first object" />
+    <Folder Include="python\hackerrank\objects\iterating over objects" />
+    <Folder Include="python\hackerrank\variables\" />
+    <Folder Include="python\hackerrank\variables\Gradebook" />
+    <Folder Include="python\hackerrank\variables\variable creation" />
+    <Folder Include="python\hackerrank\variables\variable manipulation" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="venv\">
+      <Id>venv</Id>
+      <Description>venv (Python 3.6 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <Version>3.6</Version>
+      <Architecture>X64</Architecture>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

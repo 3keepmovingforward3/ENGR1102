@@ -6,10 +6,9 @@ import hashlib
 import os
 import shutil
 
-import pathlib2
 
 mismatches = 0
-
+args=[]
 
 def my_parser():
     parser = argparse.ArgumentParser(description='Hash some files')
